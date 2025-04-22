@@ -1,6 +1,6 @@
 # This is the code and data for my CAA2025 presentation and paper
 
-# "Hey SAM, draw a map of Roman Britain in the 3rd century" - Will Foundation Models reinvent archaeological object detection?
+### "Hey SAM, draw a map of Roman Britain in the 3rd century" - Will Foundation Models reinvent archaeological object detection?
 
 The repository contains three sub-folders:
 
