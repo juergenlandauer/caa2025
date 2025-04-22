@@ -4,6 +4,14 @@ This Jupyter Notebook can run on Google Colab (https://colab.google.com) and dem
 
 The test data used here is a set of video frames from a drone video of a site in the Mediterranean.
 
-You can use your own data, too. Simply replace the ZIP file URL in the Notebook with the URL of your own ZIP file (e.g. stored in Google Drive or the like). The ZIP file must contain one or more 
+You can use your own data, too. Simply replace the ZIP file URL in the Notebook with the URL of your own ZIP file (e.g. stored in Google Drive or the like). The ZIP file must contain one or more images in its root folder. No sub-directories!
 
+If you have no images but a video instead, you must extract a series of JPEG frames from this video first, for example by using ffmpeg (https://ffmpeg.org/) as follows:
 
+    ffmpeg -i <your_video>.mp4 -q:v 2 -start_number 0 <output_dir>/'%05d.jpg'
+
+where -q:v generates high-quality JPEG frames and -start_number 0 asks ffmpeg to start the JPEG file from 00000.jpg.
+
+CAUTION: use -q:v with care and make sure your output data is not too big. The reason is that SAM is very resource intensive and processing might take a very long time. Several hours are not uncommon. Consider using a small sample first.
+
+For the same reason it is strongly recommended to use a **paid** version of Google Colab. Note that at the time of writing Colab had a prepaid version for ~11 Euros only which covered all of my experiments for several months.
