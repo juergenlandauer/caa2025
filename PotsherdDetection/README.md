@@ -16,4 +16,4 @@ CAUTION: use -q:v with care and make sure your output data is not too big. The r
 
 For the same reason it is strongly recommended to use a **paid** version of Google Colab. Note that at the time of writing Colab had a prepaid version for ~11 Euros only which covered all of my experiments for several months.
 
-The file out.mp4 contains a sample of the output from the input frames mentioned above. It has been modified from the original input by cutting out a smaller part of the original video input for performance reasons. Also slow motion is applied for easier viewing.
+The file out.mp4 (https://github.com/juergenlandauer/caa2025/blob/main/PotsherdDetection/out.mp4) contains a sample of the output from the input frames mentioned above. It has been modified from the original input by cutting out a smaller part of the original video input for performance reasons. Also slow motion is applied for easier viewing.
