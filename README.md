@@ -2,6 +2,8 @@
 
 ### "Hey SAM, draw a map of Roman Britain in the 3rd century" - Will Foundation Models reinvent archaeological object detection?
 
+Slides are available here: https://doi.org/10.13140/RG.2.2.12670.91208
+
 The repository contains three sub-folders:
 
 - Potsherd detection
