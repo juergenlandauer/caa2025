@@ -1,4 +1,4 @@
-# This is the code and data for my CAA2025 presentation and paper
+# This is the code and data for my CAA2025 presentation
 
 ### "Hey SAM, draw a map of Roman Britain in the 3rd century" - Will Foundation Models reinvent archaeological object detection?
 
